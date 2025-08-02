@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beauty makeup</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        body {
+            font-family: cursive;
+            color: antiquewhite;
+            margin: 0px;
+            padding: 0px;
+            background: url('img/bg.jpg');
+
+        }
+
+        .left {
+            display: inline-block;
+            border: 5px solid rgb(240, 240, 240);
+            position: absolute;
+            border-radius: 3px;
+            left: 34px;
+            top: 22px;
+        }
+
+        .left img {
+            width: 110px;
+            height: 90px;
+        }
+
+        .left div {
+            text-align: center;
+        }
+
+        .mid {
+            display: block;
+            width: 36%;
+            margin: 20px auto;
+            border: 5px solid rgb(242, 240, 240);
+            background-color: #181716;
+        }
+
+        .right {
+            position: absolute;
+            right: 34px;  
+            top: 22px;
+            display: inline-block;
+            border: 4px solid #ffffff;
+            border-radius: -48px;
+            background-color: #0a0a09;
+            ;
+        }
+
+        .navbar {
+            display: inline-block;
+
+        }
+
+        .navbar li {
+            display: inline-block;
+            font-size: 20px;
+            background-color: bisque;
+            border: 3px solid rgb(248, 248, 248);
+            border-radius: 10px;
+
+        }
+
+        .navbar li a {
+            color: rgb(80 50 11 / 95%);
+            text-decoration: none;
+            padding: 20px;
+        }
+
+        .navbar li a:hover,
+        .navbar li a.active {
+            text-decoration: underline;
+            color: rgb(9, 170, 239);
+        }
+
+        .btn {
+            margin: 7px 2px;
+            background-color: rgb(105 55 23 / 76%);
+            padding: 5px 12px;
+            color: aliceblue;
+            border: 2px solid grey;
+            border-radius: 10px;
+            cursor: pointer;
+            font-family: cursive;
+        }
+
+        .btn:hover {
+            background-color: rgba(16, 19, 19, 0.69);
+
+        }
+
+        .container {
+            border: 2px solid rgb(26, 161, 161);
+            margin: 120px 155px;
+
+            padding-left: 50PX;
+            padding-bottom: 50PX;
+            padding-top: 50px;
+            padding-right: 500px;
+            width: 3%;
+            background-color: #070606c2;
+            font-size: medium;
+
+
+        }
+
+        .h1 {
+            display:inline-block;
+            font-size: 2em;
+            margin-block-start: 2px;
+            margin-block-end: 10px;
+            margin-inline-start: 5px;
+            margin-inline-end: 5px;
+            font-weight: bold;
+            padding: 5000px 200px
+        }
+    </style>
+
+<body>
+    <header class="header">
+
+        <div class="left">
+
+            <img src="img/logo.png" alt="">
+            <div> Beauty Studio</div>
+
+
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Store </a></li>
+                <li><a href="#">Contact us</a></li>
+
+
+            </ul>
+
+        </div>
+        <div class="right">
+            <button class="btn">Call us now</button><button class="btn">Email us</button>
+
+        </div>
+
+    </header>
+    <div class="container">
+        <h1>Book Now</h1>
+        <h2></h2>
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" name="" placeholder=" BRIDAL MAKEUP">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder=" HAIRSTYLE">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="SKINCARE">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="MEHENDI">
+            </div>
+
+        </form>
+
+
+
+    </div>
+
+</body>
+
+</html>
